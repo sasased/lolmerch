@@ -1,0 +1,206 @@
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin:0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.backgroundlol {
+  background-image: url(lolbg.webp);
+
+}
+
+.lol {
+  text-align: center;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;
+}
+
+nav {
+    background-color: #333;
+    padding: 15px;
+    text-align: center;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+  }
+
+  nav li {
+    margin-right: 20px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+nav a:hover{
+    color: black;
+    background-color: white;
+    padding: 1%;
+    
+}
+  .menu-icon {
+    display: none;
+    cursor: pointer;
+  }
+
+  .menu-btn {
+    display: none;
+  }
+
+ 
+.pocetnaslika{
+  content: url("slike/Jinxpocetna.jpg");
+    
+    max-width: 100%;
+    height: 100%;
+    margin: 0%;
+    
+}
+.kolicapocetna{
+    content: url("slike/kolicapocetna.png");
+        top: 40%;
+        width: 100px;
+        height: 100px;
+        
+        position: absolute;
+        left: 43%;
+        animation-name: example;
+        animation-duration: 3s;
+        animation-delay: 0s;
+        animation-iteration-count: 5;
+        
+      }
+      
+      @keyframes example {
+        0%   {left:0; }
+        100% {left:43%;}
+}
+
+form {
+    max-width: 400px;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+
+
+  .shop-item {
+    width: 30%; 
+    overflow: hidden;
+    margin: 20px;
+    transition: transform 0.3s;
+    float: left; 
+  }
+
+  .shop-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .shop-item p {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .shop-item:hover {
+    transform: scale(1.1);
+  }
+
+  @media only screen and (max-width: 768px) and (max-height: 1024px) {
+    .shop-item {
+      width: 100%;
+      clear: both; 
+    }
+    nav ul {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+
+
+    nav li {
+      margin: 10px 0;
+    }
+
+    
+  }
+  @media only screen and (max-width: 320px) and (max-height: 425px) {
+    .shop-item {
+      width: 100%; 
+
+    }
+    nav ul {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+
+
+    nav li {
+      margin: 10px 0;
+    }
+
+  }
+
+  .ahrifigurica{
+    content: url("ahrifigurica.png");
+  }
+  .gnarfigurica{
+    content: url("gnarfigurica.png");
+  }
+  .haimerfigurica{
+    content: url("haimerfigurica.png");
+
+  }
+  .jaxfigurica{content: url("jaxfigurica.png");}
+  .yasuofigurica{content: url('yasuofigurica.jpg');}
+  .kaynfigurica{content: url("kaynfigurica.jpg");}
+
+  .img h1{
+    position: absolute;
+    margin-left: 35%;
+    color: white;
+    margin-top: 15%;
+  
+  
+  
+  
+  
+  }

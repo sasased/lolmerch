@@ -1,0 +1,6 @@
+//Rewrite to www
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^https://sasased.github.io/lolmerch/[nc]
+RewriteRule ^(.*)$ http://www.https://sasased.github.io/lolmerch//$1 [r=301,nc]
+ 
